@@ -29,10 +29,6 @@ See `package.json` for available scripts. This app was developed using [Yarn V1]
 See the `engines` fields inside `package.json`.
 
 ## Credentials
-You will need login credentials to access the Spotify User API. Please ask the Layerframe team to:
-
-1. Create a user for the SFB API
-2. Grant site access, which grants you access to a specific application
 
 ## Env Variables
 
