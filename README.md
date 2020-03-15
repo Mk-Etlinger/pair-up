@@ -20,10 +20,10 @@
 
 
 # Getting Started
-See `package.json` for available scripts. 
+See `package.json` for available scripts. This app was developed using [Yarn V1](https://classic.yarnpkg.com/lang/en/). Please make sure you have it installed before starting.
 
 1. Run the `setup` script to install app dependencies
-1. Run the `dev` script to run the app locally
+1. Run the `start` script to run the app locally
 
 ## Node Version
 See the `engines` fields inside `package.json`.
