@@ -1,6 +1,10 @@
 {
   "main": "node_modules/expo/AppEntry.js",
+  "engines": {
+    "node": "^12.16.1"
+  },
   "scripts": {
+    "setup": "yarn install",
     "start": "expo start",
     "android": "expo start --android",
     "ios": "expo start --ios",
