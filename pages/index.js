@@ -46,6 +46,7 @@ function RequestForm() {
     name: '',
     phoneNumber: '',
     email: '',
+    address: '',
     requestDetails: '',
   });
 
@@ -65,8 +66,8 @@ function RequestForm() {
       body: JSON.stringify(formInputs),
     })
 
-    const { status } = await response;
-    console.log(status);
+    // const { status } = await response.json();
+    console.log(response.status);
   };
   
   return (
@@ -85,6 +86,9 @@ function RequestForm() {
           
           <label className='' htmlFor="email">Email</label>
           <input className='' onChange={handleOnChange} id='email' name='email' type="text"/>
+
+          <label className='' htmlFor="requesterAddress">Address</label>
+          <input className='' onChange={handleOnChange} id='requesterAddress' name='address' type="text"/>
           
           <label className='' htmlFor="request-details">Details of your request</label>
           <textarea className='' onChange={handleOnChange} id="request-details" name="requestDetails"></textarea>
